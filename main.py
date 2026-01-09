@@ -98,4 +98,5 @@ for i, res in enumerate(valid_layouts):
     ax.set_xlim(-10, 210); ax.set_ylim(-10, 150); ax.set_aspect('equal')
 
 plt.tight_layout()
+plt.savefig("layouts.png", dpi=300, bbox_inches="tight")
 plt.show()
